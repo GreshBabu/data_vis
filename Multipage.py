@@ -19,7 +19,7 @@ import math
 from ctypes import sizeof
 from genericpath import exists
 from pickle import TRUE
-from turtle import color, fillcolor
+#from turtle import color, fillcolor
 from streamlit_plotly_events import plotly_events
 
 linkedinlink = '[Github](https://github.com/patrickld/data_vis/)'
