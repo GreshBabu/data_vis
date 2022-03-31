@@ -8,5 +8,6 @@ emoji ==1.7.0
 DateTime == 4.4
 DateTimeRange ==1.2.0
 click<=8.0.4
+streamlit_plotly_events
 
 
