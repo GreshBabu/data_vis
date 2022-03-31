@@ -12,8 +12,8 @@ import altair as alt
 
 from PIL import Image
 import emoji
-import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
+#import matplotlib.pyplot as plt
+#from matplotlib.figure import Figure
 from datetime import datetime
 from datetimerange import DateTimeRange
 import seaborn as sns
