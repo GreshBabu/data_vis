@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 
-import altair as alt
+#import altair as alt
 
 from PIL import Image
 import emoji
