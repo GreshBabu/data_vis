@@ -5,13 +5,12 @@ import os
 import altair as alt
 import numpy as np
 from PIL import Image
-#import emoji
-#import matplotlib.pyplot as plt
-#from matplotlib.figure import Figure
-
-#from datetime import datetime
-#from datetimerange import DateTimeRange
-#import seaborn as sns
+import emoji
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+from datetime import datetime
+from datetimerange import DateTimeRange
+import seaborn as sns
 import plotly.io as pio
 import plotly.graph_objects as go
 import plotly.express as px
@@ -91,7 +90,7 @@ class About(Page):
 
     def content(self):
 
-        st.write("""# COVID-19 PandeMap """)
+        st.write(emoji.emojize("""# :microbe: COVID-19 PandeMap :microbe:"""))
         st.write("""## How it works""")
         st.write("This tool will enable users to quickly visualize COVID-19 global evolution, "
         "track the development of the virus and its variants and measure the correlation "
@@ -120,7 +119,7 @@ class Page2(Page):
         super().__init__(name, data, **kwargs)
     def content(self):
         #Create header
-        #st.write(emoji.emojize("""# :microbe: COVID-19 - A study by variants:"""))
+        st.write(emoji.emojize("""# :microbe: COVID-19 - A study by variants:"""))
         #st.write("""## How it works""")
         #st.write("This tool will enable users to quickly visualize COVID-19 global evolution, "
         "track the development of the virus and its variants and measure the correlation "
@@ -338,7 +337,7 @@ class Page3(Page):
         name = "Page2"
         super().__init__(name, data, **kwargs)
     def content(self):
-        st.write("""## 🦠 Dynamic World Map & GDP vs Infant Mortality Index 🦠""")
+        st.write(emoji.emojize("""## :microbe: Dynamic World Map & GDP vs Infant Mortality Index :microbe:"""))
 
         st.write("""This section features the lates COVID-19 data from a global and economical perspective: the first visalisation will provide a
         overview of the evlution of Covid cases across the globe, whil the second one will compare the GDP vs Infant Mortality index, an insightful index for the health status of a country, to the number of
@@ -367,7 +366,7 @@ class Page3(Page):
         st.plotly_chart(fig_1)
 
 
-        st.write("""#### GDP :moneybag: vs Infant Mortality & Total Cases""")
+        st.write("""#### GDP :moneybag: vs Infant Mortality  :baby_bottle: & Total Cases""")
 
         st.write("""##### The dataset used:""")
         # Importing GDP vs Infant mortality dataframe
@@ -428,7 +427,7 @@ class Page4(Page):
                     return time_filter, variant_filter,country_filter
 
         time_filter, variant_filter, country_filter = user_input_features()
-        st.write("""# COVID-19 Cases by month:""")
+        st.write(emoji.emojize("""# :microbe: COVID-19 Cases by month:"""))
         st.write("This interactive plot gives an overview of the monthly trends in covid evolution. "
         "The filters on the left give the option of choosing the year, region and variant we wish "
         "to study. On choosing any of the filters, both the plots will adjust accordingly. ")
