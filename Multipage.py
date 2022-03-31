@@ -8,9 +8,9 @@ from PIL import Image
 #import emoji
 #import matplotlib.pyplot as plt
 #from matplotlib.figure import Figure
-!pip install datetime
-from datetime import datetime
-from datetimerange import DateTimeRange
+
+#from datetime import datetime
+#from datetimerange import DateTimeRange
 import seaborn as sns
 import plotly.io as pio
 import plotly.graph_objects as go
