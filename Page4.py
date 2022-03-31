@@ -16,7 +16,7 @@ import emoji
 #from matplotlib.figure import Figure
 from datetime import datetime
 from datetimerange import DateTimeRange
-import seaborn as sns
+#import seaborn as sns
 import plotly.io as pio
 import plotly.graph_objects as go
 import plotly.express as px
