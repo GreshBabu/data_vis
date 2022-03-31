@@ -2,7 +2,7 @@ from __future__ import annotations
 from ctypes import sizeof
 from genericpath import exists
 from pickle import TRUE
-from turtle import color, fillcolor
+#from turtle import color, fillcolor
 import streamlit as st
 import plotly.graph_objects as go
 import numpy as np
