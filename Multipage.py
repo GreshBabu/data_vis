@@ -90,7 +90,7 @@ class About(Page):
 
     def content(self):
 
-        st.write("""# COVID-19 PandeMap """))
+        st.write("""# COVID-19 PandeMap """)
         st.write("""## How it works""")
         st.write("This tool will enable users to quickly visualize COVID-19 global evolution, "
         "track the development of the virus and its variants and measure the correlation "
