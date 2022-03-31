@@ -90,7 +90,7 @@ class About(Page):
 
     def content(self):
 
-        st.write("""# 🦠 COVID-19 PandeMap 🦠"""))
+        st.write("""# COVID-19 PandeMap """))
         st.write("""## How it works""")
         st.write("This tool will enable users to quickly visualize COVID-19 global evolution, "
         "track the development of the virus and its variants and measure the correlation "
@@ -366,7 +366,7 @@ class Page3(Page):
         st.plotly_chart(fig_1)
 
 
-        st.write("""#### GDP :moneybag: vs Infant Mortality 🍼 & Total Cases""")
+        st.write("""#### GDP :moneybag: vs Infant Mortality & Total Cases""")
 
         st.write("""##### The dataset used:""")
         # Importing GDP vs Infant mortality dataframe
@@ -427,7 +427,7 @@ class Page4(Page):
                     return time_filter, variant_filter,country_filter
 
         time_filter, variant_filter, country_filter = user_input_features()
-        st.write("""# 🦠 COVID-19 Cases by month:""")
+        st.write("""# COVID-19 Cases by month:""")
         st.write("This interactive plot gives an overview of the monthly trends in covid evolution. "
         "The filters on the left give the option of choosing the year, region and variant we wish "
         "to study. On choosing any of the filters, both the plots will adjust accordingly. ")
